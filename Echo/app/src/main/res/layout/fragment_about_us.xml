@@ -1,0 +1,64 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/about_us_lo"
+                android:layout_centerInParent="true"
+                android:id="@+id/aboutUsLogo"
+                android:layout_marginBottom="8dp"
+                android:minHeight="0dp"
+                android:minWidth="0dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Although this project is built as a part of an online project. But it is made public, so anyone can use it."
+                android:id="@+id/description"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:textAlignment="center"
+                android:textColor="#212121"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Version : 1.0"
+
+                android:layout_below="@+id/description"
+                android:id="@+id/version_info"
+                android:layout_marginBottom="12dp"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="For more info or reporting any bugs, kindly contact chandan.ckp11@gmail.com"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:textColor="#212121"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
